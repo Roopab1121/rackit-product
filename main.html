@@ -1,0 +1,142 @@
+<!DOCTYPEhtml>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="root">
+    <header>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid align-items-start px-xl-5">
+            <div class="navbar-brand flex-fill w-100">
+                <img src="rackit.png" width="31" height="63" padding-left="31" alt="logo">
+            </div>
+            <div class="flex-fill w-100 text-center">
+                <span>
+                    <img class="d-inline:block align-middle" src="call.svg" width=20 height=20>
+                </span>
+                <span class="dark" line-height="1.5">Kundeservice 51 52 00 50</span>
+            </div>
+            <ul class="nav navbar-nav w-100 justify-content font-weight-bold navbar-right">
+                <li class="navbar-text pt-0 mr-3">
+                    <select class="language">
+                        <option>EN</option>
+                        <option>NO</option>
+                    </select>
+                </li>
+                <li class="navbar-text"><span>Admin</span></li>
+                <li class="navbar-text"><span>Logg ut</span></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <div class="container ">
+        <div class="row mb-3">
+            <div class="font-weight-normal " font-size="17px">
+            <span>Hjem / Produckter</span>
+            </div>
+        </div>
+    </div>
+    <section id="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+            <h1><span>Produkter</span></h1>
+            <p><span>Her finner du en oversikt og beskriver over alle våre
+                 produkter og tjenester. Du kan videre se lagerstatus
+                og priser.</span></p></div></div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container pro">
+            <div class="row p-5">
+                <h4><span>Produkter</span></h4>
+            </div>
+        </div>
+    </section>
+    <section id="content">
+        <div class="container bd1" id="accordion">
+            <ul class="nav nav-tabs nav-fill" >
+                <li class="nav-item">
+                    <a href="#alarm1" class="nav-link" data-toggle="tab" color="black"><strong class="listitem">Alarm</strong></a>
+                </li>
+                <li class="nav-item">
+                        <a href="#Kamera1" class="nav-link" data-toggle="tab"><strong class="listitem">Kamera</strong></a>
+                </li>
+                <li class="nav-item">
+                            <a href="#Velferd1" class="nav-link" data-toggle="tab"> Velferd</a>
+                </li>
+                <li class="nav-item">
+                        <a href="#Automasjon" class="nav-link" data-toggle="tab">Automasjon</a>
+                 </li>
+                <li class="nav-item">
+                            <a href="#NettverkogSkap" class="nav-link" data-toggle="tab">Nettverk og Skap</a>
+                </li>
+                <li class="nav-item">
+                            <a href="#TVoglyd" class="nav-link" data-toggle="tab">TV og lyd</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="container bd1">
+            <table class="table">
+                    <thead><tr>
+                        <th>  Varenavn</th>
+                        <th>Varenummer</th>
+                        <th>Larger</th>
+                        <th>Pris</th>
+                        <th>Status</th>
+                    </tr></thead>
+                
+                <tr>
+                    <td><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="glyphicon glyphicon-chevron-down" ></span></a>
+                    <strong>Bevegelses sensor</strong></td>
+                    <td>IR-16SLF1</td>
+                    <td><img src="icon-cross-red.6f7e536b.svg" height="18" width="14"></td>
+                    <td>276,-</td>
+                    <td>Aktiv</td>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="col-lg-4">
+                                <img src="09856563744.jpg" height="225" width="225">
+                
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="col-lg-7">
+                                        <p>Skriv inn produktbeskrivelse<span class="glyphicon glyphicon-pencil"></span></p>
+                                </div>
+                                <div class="col-lg-4">
+                                    <button type="button" class="btn">Last opp fil</button>
+                                </div>
+                            </div>
+                
+                        </div></div>
+                </tr>
+                <tr>
+                    <td><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="glyphicon glyphicon-chevron-down" ></span></a><strong>Bevegelsessenor med kamera</strong></td>
+                        
+                    <td>862F1</td>
+                    <td><img src="icon-cross-red.6f7e536b.svg" height="18" width="14"></td>
+                    <td>787,-</td>
+                    <td>Aktiv</td>
+                </tr>
+                <tr>
+                        <td><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><span class="glyphicon glyphicon-chevron-down" ></span></a><strong> sirene</th></strong></td>
+                        <td>SR-15F1</td>
+                        <td><img src="icon-cross-red.6f7e536b.svg" height="18" width="14"></td>
+                        <td>505,-</td>
+                        <td>Aktiv</td>
+                    </tr>
+                    </div>
+</div>
+            </table>
+
+        </div>
+            </section>
+</div>
+</body>
+</html>
